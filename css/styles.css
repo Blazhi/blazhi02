@@ -1,3 +1,7 @@
+:root{
+
+}
+
 body {
     font-family: "Roboto", sans-serif;
 }
@@ -8,4 +12,20 @@ body {
 
 .link{
 text-decoration: none;
+}
+
+.header{
+    background-color: #212121;
+}
+.header-nav{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    color: #212121;
+}    
+
+.main{
+    background: #E5E5E5;
 }
