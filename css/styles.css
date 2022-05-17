@@ -78,7 +78,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--first-tittle-color);
   }
-   /*--HERO-- */
+   /*--background!!!!!-- */
 .header{
     background-color:  #FFFFFF;
 }
@@ -91,6 +91,10 @@ body {
 .footer{
     background-color: #2F303A;;
 }
+.main{
+    background-color:#E5E5E5; ;
+}
+ /*--HERO-- */
 .hero-tittle{
     font-weight: 900;
     font-size: 44px;
