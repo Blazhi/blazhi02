@@ -1,5 +1,10 @@
 :root{
+--header-color:#212121;
 --accent-color: #2196F3;
+--first-tittle-color: color: #FFFFFF;;
+--second-tittle-color: color: #212121;
+--first-btn-color: color: #FFFFFF;
+--second-btn-color: color: #212121;
 }
 
 body {
@@ -11,11 +16,11 @@ body {
 }
 
 .link{
-text-decoration: none;
+    text-decoration: none;
 }
 
-.logo-accent{
-
+.logo-accent{ 
+    color:var(accent-color);
 }
 .header{
     background: #FFFFFF;
@@ -26,17 +31,44 @@ text-decoration: none;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--header-color);
 }
-.contacts-link link{
+.header-link:hover,
+.header-link:focus {
+    color: var(--accent-color);
+}
+
+.contacts-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
 }
+
 .hero{
     background: #2F303A;
+}
+
+.hero-tittle{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--first-tittle-color);
+}
+
+.hero-btn{
+    font-weight: 700;
+font-size: 16px;
+line-height: 1.88x;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--first-btn-color);
 }
 
 .main{
