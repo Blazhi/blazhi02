@@ -91,7 +91,7 @@ body {
 .footer{
     background-color: #2F303A;;
 }
-.main{
+.projects{
     background-color:#E5E5E5; ;
 }
  /*--HERO-- */
@@ -173,7 +173,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--second-text-color);
+    color: rgba(255, 255, 255, 0.6);
 }
 .contacts-maps{
     font-style: normal;
