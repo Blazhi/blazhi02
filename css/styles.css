@@ -7,6 +7,10 @@
 --second-btn-color: #212121;
 --first-text-color: #757575;
 --second-text-color: #FFFFFF;
+--footer-background-color: #2F303A;
+--team-background-color: #F5F4FA;
+--hero-background-color : #2F303A;
+--background-color: #FFFFFF;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -80,16 +84,16 @@ body {
   }
    /*--background!!!!!-- */
 .header{
-    background-color:  #FFFFFF;
+    background-color:  var(--background-color);
 }
 .hero{
-    background-color: #2F303A;
+    background-color: var(--hero-background-color);
 }
 .team{
-    background-color: #F5F4FA;;
+    background-color: var(--team-background-color);
 }
 .footer{
-    background-color: #2F303A;;
+    background-color:var(--footer-background-color);
 }
  /*--HERO-- */
 .hero-tittle{
